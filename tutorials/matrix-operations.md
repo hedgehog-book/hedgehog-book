@@ -54,14 +54,14 @@ where I is an $$n \times n$$ identity matrix.
 
 ### Matrix division $$A/B$$
 
-There is no mathmatical definition of matrix division. But for numeric computing, people usually define right-matrix division in this way: for an $$n \times n$$ square matrix $$A$$ and another $$n \times n$$ square matrix $$B$$, if matrix $$B$$ is invertible, matrix division $$X = A/B$$ is usually calculated as:
+There is no mathematical definition of matrix division. But for numeric computing, people usually define right-matrix division in this way: for an $$n \times n$$ square matrix $$A$$ and another $$n \times n$$ square matrix $$B$$, if matrix $$B$$ is invertible, matrix division $$X = A/B$$ is usually calculated as:
 
 $$
 X=AB^{-1}
 $$
 
 Here is an example code for all operations above:
-<iframe src="https://hedgehog-lab.github.io/?your_url=https%3A%2F%2Fraw.githubusercontent.com%2Flidangzzz%2FHedgehog-Lab-Tutorial-Codebase%2Fmain%2FBasic-Matrix-Operations.hss&auto_run=true" allowfullscreen width="1000" height="500"></iframe>
+<iframe src="https://hedgehog-lab.github.io/?your_url=https%3A%2F%2Fraw.githubusercontent.com%2Flidangzzz%2FHedgehog-Lab-Tutorial-Codebase%2Fmain%2FBasic-Matrix-Operations.hss&auto_run=true" allowfullscreen width="1000" height="300"></iframe>
 
 ## Cholesky Decomposition
 
@@ -75,7 +75,10 @@ $$
 
 Here is an example:
 
-<iframe src="https://hedgehog-lab.github.io/?your_url=https://raw.githubusercontent.com/lidangzzz/Hedgehog-Lab-Tutorial-Codebase/main/Cholesky.hss&auto_run=true" allowfullscreen width="1000" height="500"></iframe>
+<iframe src="https://hedgehog-lab.github.io/?your_url=https://raw.githubusercontent.com/lidangzzz/Hedgehog-Lab-Tutorial-Codebase/main/Cholesky.hss&auto_run=true" allowfullscreen width="1000" height="400"></iframe>
+
+<iframe src="https://hedgehog-lab.github.io/?code=print('hello%20world')%3B&auto_run=true" allowfullscreen width="1000" height="200"></iframe>
+
 
 ## Eigenvalue and eigenvector
 

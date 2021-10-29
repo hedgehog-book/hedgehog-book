@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>About Hedgehog Book · Hedgehog Book</title>
+        <title>Contribute to this book · Hedgehog Book</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -69,8 +69,8 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="overview.html" />
     
+    <link rel="prev" href="tutorials/share-code-via-url.html" />
     
 
     </head>
@@ -99,7 +99,7 @@
         
         
     
-        <li class="chapter active" data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="./">
             
                 <a href="./">
             
@@ -384,7 +384,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="contribute.html">
+        <li class="chapter active" data-level="1.5" data-path="contribute.html">
             
                 <a href="contribute.html">
             
@@ -427,7 +427,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >About Hedgehog Book</a>
+        <a href="." >Contribute to this book</a>
     </h1>
 </div>
 
@@ -442,23 +442,10 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="about-hedgehog-book">About Hedgehog Book</h1>
-<p>This is an interactive math-algorithm-code book powered by Hedgehog Lab (<a href="https://github.com/Hedgehog-Computing/hedgehog-lab" target="_blank">https://github.com/Hedgehog-Computing/hedgehog-lab</a>). </p>
-<p>All the codes provided in this book are <strong>Hedgehog Script</strong>. Every snippet can be compiled and executed totally inside your browser, and can be executed in Hedgehog Lab (<a href="https://hedgehog-lab.github.io" target="_blank">https://hedgehog-lab.github.io</a>).</p>
-<p>Read this book at <a href="https://hedgehog-book.github.io/" target="_blank">https://hedgehog-book.github.io/</a>.</p>
-<h2 id="author">Author</h2>
-<p>Xinran Wang, founder of <a href="https://github.com/Hedgehog-Computing" target="_blank">Hedgehog Computing</a> (<a href="https://linktr.ee/lidang" target="_blank">https://linktr.ee/lidang</a>).</p>
-<h2 id="cite-hedgehog-book">Cite Hedgehog Book</h2>
-<p>If you use Hedgehog Book in your research or study, please use the following BibTeX entry</p>
-<pre><code>@misc{HedgehogBook2021,
-  author =       {Xinran Wang},
-  title =        {Hedgehog Book},
-  howpublished = {\url{https://hedgehog-book.github.io/}},
-  year =         {2021}
-}
-</code></pre><h2 id="contribute-to-this-book">Contribute to this book</h2>
+                                <h1 id="contribute-to-this-book">Contribute to this book</h1>
 <p>This book is written in Markdown, built with GitBook and served with Github Pages.</p>
-<p>Install GitBook via NPM:</p>
+<h2 id="setup">Setup</h2>
+<p>Install GitBook command line tool via NPM:</p>
 <pre><code>$ npm install gitbook-cli -g
 </code></pre><p>Install all plugins for this book:</p>
 <pre><code>$ gitbook install
@@ -466,7 +453,28 @@
 <pre><code>$ gitbook serve
 </code></pre><p>Build a release version of Hedgehog Book at &quot;_book&quot; folder:</p>
 <pre><code>$ gitbook build
-</code></pre><p>For more details, please check <a href="contribute.html">Contribute to this book</a> chapter for more details.</p>
+</code></pre><h2 id="latex-support">LaTeX Support</h2>
+<p>This book contains <strong>katex</strong> plugin, which allows author to insert a block of LaTeX formula using <code>$&#x200B;$</code>, for example:</p>
+<pre><code>$&#x200B;$
+\int_{-\infty}^\infty g(x) dx
+$&#x200B;$
+</code></pre><p>will be rendered in HTML as </p>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mo>&#x222B;</mo><mrow><mo>&#x2212;</mo><mi mathvariant="normal">&#x221E;</mi></mrow><mi mathvariant="normal">&#x221E;</mi></msubsup><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">
+\int_{-\infty}^\infty g(x) dx
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.805em;"></span><span class="strut bottom" style="height:1.219451em;vertical-align:-0.414451em;"></span><span class="base textstyle uncramped"><span class="mop"><span class="mop op-symbol small-op" style="margin-right:0.19445em;top:-0.0005599999999999772em;">&#x222B;</span><span class="msupsub"><span class="vlist"><span style="top:0.35612em;margin-left:-0.19445em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="reset-textstyle scriptstyle cramped mtight"><span class="mord scriptstyle cramped mtight"><span class="mord mtight">&#x2212;</span><span class="mord mathrm mtight">&#x221E;</span></span></span></span><span style="top:-0.41900000000000004em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="reset-textstyle scriptstyle uncramped mtight"><span class="mord mathrm mtight">&#x221E;</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span>&#x200B;</span></span></span></span><span class="mord mathit" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span><span class="mord mathit">d</span><span class="mord mathit">x</span></span></span></span></p>
+<p>Also you can insert an inline piece of LaTeX using <code>$&#x200B;$</code>, for example <code>$&#x200B;$\frac{x}{y}$&#x200B;$</code> is rendered as <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mrow><mi>x</mi></mrow><mrow><mi>y</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">\frac{x}{y}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.695392em;"></span><span class="strut bottom" style="height:1.1764999999999999em;vertical-align:-0.481108em;"></span><span class="base textstyle uncramped"><span class="mord reset-textstyle textstyle uncramped"><span class="mopen sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span><span class="mfrac"><span class="vlist"><span style="top:0.345em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="reset-textstyle scriptstyle cramped mtight"><span class="mord scriptstyle cramped mtight"><span class="mord mathit mtight" style="margin-right:0.03588em;">y</span></span></span></span><span style="top:-0.22999999999999998em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="reset-textstyle textstyle uncramped frac-line"></span></span><span style="top:-0.394em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="reset-textstyle scriptstyle uncramped mtight"><span class="mord scriptstyle uncramped mtight"><span class="mord mathit mtight">x</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span>&#x200B;</span></span></span><span class="mclose sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span></span></span></span></span>.</p>
+<h2 id="inline-hedgehog-lab-with-sample-code">Inline Hedgehog Lab with Sample Code</h2>
+<p>Since <strong>responsive-iframe</strong> plugin is added to this GitBook project, you can easily add a Hedgehog Lab with sample code using an HTML iframe tag. For example, the sample code is:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> myString = <span class="hljs-string">&quot;hello world!&quot;</span>
+print(myString)
+</code></pre>
+<p>You can generate a link at <a href="https://hhlab.dev" target="_blank">hhlab.dev</a> with the sample code above with &quot;automatically execute&quot; checked as <a href="https://hhlab.dev/?code=let%20myString%20%3D%20%22hello%20world!%22%0D%0Aprint(myString" target="_blank">https://hhlab.dev/?code=let%20myString%20%3D%20%22hello%20world!%22%0D%0Aprint(myString)&amp;auto_run=true</a>&amp;auto_run=true).</p>
+<p>Then you can insert the link into your book with the following iframe tage:</p>
+<pre><code>&lt;iframe src=&quot;https://hhlab.dev/?code=let%20myString%20%3D%20%22hello%20world!%22%0D%0Aprint(myString)&amp;auto_run=true&quot; allowfullscreen width=&quot;1000&quot; height=&quot;300&quot; frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot;&gt;&lt;/iframe&gt;
+</code></pre><p>in which the width and height attributes are set as 1000 and 300 respectively, with no frameborder, border, marginwidth and marginheight attributes. The iframe tag inserted to the book will be rendered as:</p>
+<iframe src="https://hhlab.dev/?code=let%20myString%20%3D%20%22hello%20world!%22%0D%0Aprint(myString)&amp;auto_run=true" allowfullscreen width="1000" height="300" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
+
+<p>which will automatically execute the sample code when the iframe is loaded.</p>
 
                                 
                                 </section>
@@ -494,10 +502,10 @@
 
             
                 
-                
-                <a href="overview.html" class="navigation navigation-next navigation-unique" aria-label="Next page: A Quick Overview">
-                    <i class="fa fa-angle-right"></i>
+                <a href="tutorials/share-code-via-url.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Share code via URL">
+                    <i class="fa fa-angle-left"></i>
                 </a>
+                
                 
             
         
@@ -506,7 +514,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"About Hedgehog Book","level":"1.1","depth":1,"next":{"title":"A Quick Overview","level":"1.2","depth":1,"path":"overview.md","ref":"overview.md","articles":[]},"dir":"ltr"},"config":{"plugins":["responsive-iframes","wide-page","katex"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"search":{},"wide-page":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"responsive-iframes":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Hedgehog Book","gitbook":"*"},"file":{"path":"README.md","mtime":"2021-10-29T20:34:52.134Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-10-29T23:48:48.920Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Contribute to this book","level":"1.5","depth":1,"previous":{"title":"Share code via URL","level":"1.4.10","depth":2,"path":"tutorials/share-code-via-url.md","ref":"tutorials/share-code-via-url.md","articles":[]},"dir":"ltr"},"config":{"plugins":["responsive-iframes","wide-page","katex"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"search":{},"wide-page":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"responsive-iframes":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Hedgehog Book","gitbook":"*"},"file":{"path":"contribute.md","mtime":"2021-10-29T20:34:52.137Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-10-29T23:48:48.920Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
